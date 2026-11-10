@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-page="contact">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#f7f4ef">
+  <meta name="description" content="تواصل مع Scenery للاستفسار عن الأثاث والمشاريع والتصنيع حسب الطلب والشحن الدولي.">
+  <title>تواصل معنا | Scenery</title>
+  <link rel="icon" href="../assets/scenery-logo-transparent.png" type="image/png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../typography.css">
+  <link rel="stylesheet" href="../public-pages.css">
+  <script src="../catalog-data.js" defer></script>
+  <script src="../content.js" defer></script>
+  <script src="../site.js" defer></script>
+  <script src="../contact.js" defer></script>
+</head>
+<body class="public-page">
+  <!-- sprite -->
+  <!-- header -->
+  <main id="main" tabindex="-1" class="wrap">
+    <nav class="public-crumb" aria-label="مسار التنقل"><ol><li><a href="../index.html">الرئيسية</a></li><li aria-current="page">تواصل معنا</li></ol></nav>
+    <header class="contact-opening">
+      <div><p class="section-kicker">تواصل معنا</p><h1>يسعدنا التواصل معك</h1><p class="public-lead">لو بتبحث عن قطعة أثاث، أو ترغب في تنفيذ تصميم خاص، أو عندك استفسار عن مشروع، شاركنا التفاصيل هنا.</p></div>
+      <img src="../assets/images/custom-960.webp" srcset="../assets/images/custom-480.webp 480w, ../assets/images/custom-960.webp 960w" sizes="(min-width: 48rem) 42vw, 90vw" width="960" height="720" alt="تفصيل توضيحي لسطح خشبي بجوار مقعد منجّد" fetchpriority="high" decoding="async">
+    </header>
+    <div class="contact-grid public-section">
+      <aside class="contact-aside" aria-labelledby="channels-title">
+        <h2 id="channels-title">وسائل التواصل</h2>
+        <ul id="contact-channels"></ul>
+        <p class="contact-guidance">في استفسارات التصميم، وصف الاستخدام والمقاس التقريبي يساعد على فهم الفكرة. يمكنك ترك المقاسات والخامات فارغة إذا لم تتحدد بعد.</p>
+        <a class="text-action" href="../index.html#faq">الأسئلة الشائعة <svg class="icon" aria-hidden="true"><use href="#icon-arrow"></use></svg></a>
+      </aside>
+      <section class="contact-form-panel" id="inquiry" aria-labelledby="inquiry-heading">
+        <h2 id="inquiry-heading">ابدأ استفسارك</h2>
+        <p class="contact-demo">نموذج للمعاينة. البيانات والصور المختارة تُستخدم داخل الصفحة أثناء التجربة.</p>
+        <p id="contact-reference" class="contact-reference" hidden></p>
+        <noscript><p>فعّل JavaScript لتجربة النموذج.</p></noscript>
+        <form id="contact-form" method="post" novalidate hidden>
+          <p class="contact-error contact-full" id="contact-errors" role="alert" tabindex="-1" hidden></p>
+          <div class="contact-field"><label for="contact-name">الاسم الكامل</label><input id="contact-name" name="name" autocomplete="name" maxlength="100" required aria-describedby="contact-name-error"><p class="contact-error" id="contact-name-error" hidden></p></div>
+          <div class="contact-field"><label for="contact-phone">رقم الهاتف الدولي</label><input id="contact-phone" name="phone" type="tel" autocomplete="tel" dir="ltr" maxlength="35" required aria-describedby="contact-phone-error"><p class="contact-error" id="contact-phone-error" hidden></p></div>
+          <div class="contact-field"><label for="contact-country">الدولة</label><input id="contact-country" name="country" autocomplete="country-name" maxlength="80" required aria-describedby="contact-country-error"><p class="contact-error" id="contact-country-error" hidden></p></div>
+          <div class="contact-field"><label for="contact-email">البريد الإلكتروني <span>(اختياري)</span></label><input id="contact-email" name="email" type="email" dir="ltr" autocomplete="email" maxlength="254" aria-describedby="contact-email-error"><p class="contact-error" id="contact-email-error" hidden></p></div>
+          <div class="contact-field contact-full">
+            <label for="contact-type">نوع الاستفسار</label>
+            <select id="contact-type" name="type">
+              <option value="general">استفسار عام</option><option value="product">استفسار عن منتج</option><option value="project">استفسار عن مشروع</option><option value="custom">طلب تصنيع حسب الطلب</option><option value="export">استفسار عن التصدير والشحن الدولي</option>
+            </select>
+          </div>
+          <fieldset id="contact-custom" class="contact-full contact-options" hidden disabled>
+            <legend>تفاصيل التصنيع <span>(اختيارية)</span></legend>
+            <div class="contact-field"><label for="contact-work">نوع الأثاث أو العمل</label><input id="contact-work" name="work" maxlength="120"></div>
+            <div class="contact-field"><label for="contact-size">المقاسات التقريبية</label><input id="contact-size" name="dimensions" maxlength="120"></div>
+            <div class="contact-field contact-full"><label for="contact-material">الخامة المفضلة</label><input id="contact-material" name="material" maxlength="120"></div>
+            <div class="contact-field contact-full">
+              <label for="contact-images">صور مرجعية <span>(اختيارية)</span></label>
+              <input id="contact-images" type="file" accept="image/jpeg,image/png,image/webp" multiple aria-describedby="contact-files-help contact-files-error">
+              <p id="contact-files-help">حتى ٣ صور من نوع JPG أو PNG أو WebP، بحد أقصى ٥ ميغابايت للصورة. المعاينة محلية.</p>
+              <p class="contact-error" id="contact-files-error" role="alert" hidden></p>
+              <p id="contact-files-status" class="sr-only" role="status"></p>
+              <ul id="contact-file-list" class="contact-file-list" aria-label="الصور المختارة"></ul>
+            </div>
+          </fieldset>
+          <fieldset id="contact-export" class="contact-full contact-options" hidden disabled>
+            <legend>تفاصيل الاستفسار الدولي <span>(اختيارية)</span></legend>
+            <div class="contact-field"><label for="contact-destination">دولة الوجهة</label><input id="contact-destination" name="destination" maxlength="80"></div>
+            <div class="contact-field"><label for="contact-products">المنتجات المطلوبة</label><input id="contact-products" name="products" maxlength="120"></div>
+            <div class="contact-field contact-full"><label for="contact-quantity">الكمية التقريبية</label><input id="contact-quantity" name="quantity" maxlength="60"></div>
+            <p class="contact-full">هذا المسار للاستفسار عن إمكانية الشحن وتغطية الوجهة.</p>
+          </fieldset>
+          <div class="contact-field contact-full"><label for="contact-details">تفاصيل الاستفسار</label><textarea id="contact-details" name="details" rows="5" maxlength="3000" required aria-describedby="contact-details-error"></textarea><p class="contact-error" id="contact-details-error" hidden></p></div>
+          <div class="contact-submit contact-full">
+            <button class="button button-primary" type="submit">جرّب إرسال الاستفسار <svg class="icon" aria-hidden="true"><use href="#icon-arrow"></use></svg></button>
+            <a href="../privacy-policy/index.html">سياسة الخصوصية</a>
+          </div>
+        </form>
+        <p class="contact-success" id="contact-success" role="status" tabindex="-1" hidden></p>
+      </section>
+    </div>
+  </main>
+  <!-- footer -->
+  <!-- dialogs -->
+</body>
+</html>

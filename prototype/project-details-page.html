@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-page="project-details">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f0e7">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="تفاصيل المشاريع التجريبية للأثاث والأعمال الخشبية لدى Scenery.">
+  <title>تفاصيل المشروع | Scenery</title>
+  <link rel="icon" href="../../assets/scenery-logo-transparent.png" type="image/png">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="stylesheet" href="../../typography.css">
+  <link rel="stylesheet" href="../../projects.css">
+  <link rel="stylesheet" href="../../project-details.css">
+  <script src="../../content.js" defer></script>
+  <script src="../../site.js" defer></script>
+  <script src="../../project-details.js" defer></script>
+</head>
+<body class="projects-page">
+  <!-- sprite -->
+  <svg class="sprite" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="pd-layers" viewBox="0 0 24 24"><path d="m12 3 10 5-10 5L2 8l10-5Zm-10 9 10 5 10-5M2 16l10 5 10-5"/></symbol>
+    <symbol id="pd-pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="pd-scope" viewBox="0 0 24 24"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5M9 12h6m-3-3v6"/></symbol>
+    <symbol id="pd-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 10h18m-13 4h2m4 0h2m-8 3h2m4 0h2"/></symbol>
+    <symbol id="pd-expand" viewBox="0 0 24 24"><path d="M4 9V4h5m6 0h5v5M4 15v5h5m6 0h5v-5"/></symbol>
+    <symbol id="pd-play" viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></symbol>
+  </svg>
+  <!-- header -->
+  <main id="main" tabindex="-1" class="project-detail">
+    <div id="pd-content" class="pd-wrap" hidden>
+      <nav class="portfolio-crumb pd-breadcrumb" aria-label="مسار التنقل">
+        <ol><li><a href="../../index.html">الرئيسية</a></li><li><a href="../index.html">مشاريعنا</a></li><li aria-current="page">تفاصيل المشروع</li></ol>
+      </nav>
+      <header class="pd-intro">
+        <p class="section-kicker" id="pd-label">مشروع تجريبي</p>
+        <h1 id="pd-title"></h1>
+        <p id="pd-summary"></p>
+        <p class="pd-demo">الصور وبيانات المشروع للمعاينة التجريبية.</p>
+      </header>
+      <div class="pd-top">
+        <section class="pd-main-gallery" aria-label="معرض وسائط المشروع">
+          <div class="pd-stage" tabindex="0">
+            <img id="pd-photo" src="../../assets/catalog/placeholder.svg" alt="" fetchpriority="high" decoding="async">
+            <p class="pd-loading" role="status" hidden>جاري تحميل الصورة…</p>
+            <button type="button" class="round-control pd-expand" aria-label="فتح الصورة بالحجم الكبير" aria-haspopup="dialog"><svg class="icon" aria-hidden="true"><use href="#pd-expand"></use></svg></button>
+            <div class="pd-stage-arrows">
+              <button type="button" class="round-control" data-step="-1" aria-label="الصورة السابقة"><svg class="icon" aria-hidden="true"><use href="#icon-arrow"></use></svg></button>
+              <button type="button" class="round-control" data-step="1" aria-label="الصورة التالية"><svg class="icon" aria-hidden="true"><use href="#icon-arrow"></use></svg></button>
+            </div>
+            <p id="pd-count" class="pd-count" role="status" aria-label="رقم الصورة" dir="ltr"></p>
+          </div>
+          <div class="pd-thumbs" role="group" aria-label="الوسائط المصغرة"></div>
+          <p class="pd-media-caption" hidden></p>
+        </section>
+        <section class="pd-overview" aria-labelledby="pd-overview-title">
+          <h2 id="pd-overview-title">نظرة على المشروع</h2>
+          <dl id="pd-overview"></dl>
+          <div class="pd-actions">
+            <button type="button" class="button button-primary" data-inquiry="similar" aria-haspopup="dialog">اطلب تنفيذ مشروع مشابه <svg class="icon" aria-hidden="true"><use href="#icon-arrow"></use></svg></button>
+            <button type="button" class="button button-outline" data-inquiry="question" aria-haspopup="dialog">استفسر عن المشروع <svg class="icon" aria-hidden="true"><use href="#icon-wa"></use></svg></button>
+          </div>
+        </section>
+      </div>
+      <div class="pd-story">
+        <section class="pd-narrative" aria-labelledby="pd-story-title">
+          <h2 id="pd-story-title">تفاصيل المشروع</h2>
+          <p id="pd-description"></p>
+          <ul class="pd-features" aria-label="خصائص المشروع"></ul>
+        </section>
+        <section class="pd-works" aria-labelledby="pd-works-title" hidden>
+          <h2 id="pd-works-title">الأعمال المنفذة</h2>
+          <ul></ul>
+        </section>
+        <figure class="pd-detail-photo" hidden><img src="../../assets/catalog/placeholder.svg" loading="lazy" decoding="async" alt=""></figure>
+      </div>
+      <section class="pd-spaces" aria-labelledby="pd-spaces-title" hidden>
+        <h2 id="pd-spaces-title">جولة داخل المشروع</h2>
+        <div class="pd-spaces-grid"></div>
+      </section>
+      <section class="pd-materials" aria-labelledby="pd-materials-title" hidden>
+        <h2 id="pd-materials-title">الخامات المستخدمة</h2>
+        <div class="pd-material-grid"></div>
+      </section>
+      <section class="pd-additional" aria-labelledby="pd-additional-title" hidden>
+        <h2 id="pd-additional-title">معرض صور المشروع</h2>
+        <div class="pd-additional-photos"></div>
+      </section>
+      <section class="pd-related" aria-labelledby="pd-related-title" hidden>
+        <h2 id="pd-related-title">مشاريع مشابهة</h2>
+        <div class="portfolio-grid"></div>
+      </section>
+      <section class="portfolio-cta pd-cta" aria-labelledby="pd-cta-title">
+        <div><h2 id="pd-cta-title">لديك مشروع خاص؟</h2><p>دعنا نحوّل فكرتك إلى تصميم وتنفيذ يناسب مساحتك.</p></div>
+        <button type="button" class="button button-primary" data-inquiry="similar" aria-haspopup="dialog"><svg class="icon" aria-hidden="true"><use href="#icon-wa"></use></svg> استشر فريقنا الآن</button>
+      </section>
+    </div>
+    <section id="pd-missing" class="pd-wrap pd-missing" hidden>
+      <h1>المشروع غير موجود</h1>
+      <p>تعذّر العثور على المشروع في المعرض الحالي.</p>
+      <a class="button button-primary" href="../index.html">العودة إلى مشاريعنا</a>
+    </section>
+    <noscript><p class="pd-wrap">فعّل JavaScript لعرض تفاصيل المشروع والصور.</p></noscript>
+  </main>
+  <template id="pd-video-template">
+    <div class="pd-video-panel" hidden>
+      <img class="pd-video-poster" src="../../assets/catalog/placeholder.svg" alt="" decoding="async">
+      <video controls playsinline preload="none" tabindex="0" hidden></video>
+      <button type="button" class="button pd-video-play"><svg class="icon" aria-hidden="true"><use href="#pd-play"></use></svg><span>تشغيل الفيديو</span></button>
+      <p class="pd-video-error" role="status" hidden></p>
+    </div>
+  </template>
+  <dialog id="pd-lightbox" class="preview-dialog pd-lightbox" aria-labelledby="pd-lightbox-title">
+    <div class="dialog-heading"><h2 id="pd-lightbox-title">صورة المشروع بالحجم الكبير</h2><form method="dialog"><button class="icon-button" type="submit" aria-label="إغلاق المعرض" autofocus><svg class="icon" aria-hidden="true"><use href="#icon-close"></use></svg></button></form></div>
+    <div class="pd-lightbox-stage" tabindex="0" role="group" aria-label="الصورة المكبرة"><div><img src="../../assets/catalog/placeholder.svg" alt="" decoding="async"></div></div>
+    <div class="pd-lightbox-controls">
+      <div class="pd-lightbox-nav" role="group" aria-label="التنقل في الصور">
+        <button class="icon-button" type="button" data-step="-1" aria-label="الصورة السابقة"><svg class="icon" aria-hidden="true"><use href="#icon-arrow"></use></svg></button>
+        <p class="pd-lightbox-count" role="status" dir="ltr"></p>
+        <button class="icon-button" type="button" data-step="1" aria-label="الصورة التالية"><svg class="icon" aria-hidden="true"><use href="#icon-arrow"></use></svg></button>
+      </div>
+      <div class="pd-zoom-controls" role="group" aria-label="تكبير الصورة">
+        <button class="icon-button" type="button" data-zoom="-1" aria-label="تصغير الصورة">−</button>
+        <p class="pd-zoom-level" role="status">١٠٠٪</p>
+        <button class="icon-button" type="button" data-zoom="1" aria-label="تكبير الصورة">+</button>
+        <button class="text-action" type="button" data-zoom="reset">الحجم الأصلي</button>
+      </div>
+    </div>
+  </dialog>
+  <dialog id="pd-inquiry" class="preview-dialog" aria-labelledby="pd-inquiry-title">
+    <div class="dialog-heading"><h2 id="pd-inquiry-title">استفسر عن المشروع</h2><form method="dialog"><button class="icon-button" type="submit" aria-label="إغلاق الاستفسار" autofocus><svg class="icon" aria-hidden="true"><use href="#icon-close"></use></svg></button></form></div>
+    <p id="pd-inquiry-reference"></p>
+    <form id="pd-inquiry-form" class="pd-inquiry-form" method="dialog">
+      <label>الاسم <input name="name" autocomplete="name" required></label>
+      <label>الهاتف الدولي <input name="phone" type="tel" autocomplete="tel" dir="ltr" required></label>
+      <label>الدولة <input name="country" autocomplete="country-name" required></label>
+      <label>البريد الإلكتروني (اختياري) <input name="email" type="email" autocomplete="email" dir="ltr"></label>
+      <label class="pd-form-wide">تفاصيل الاستفسار <textarea name="details" rows="3" required></textarea></label>
+      <button type="submit" class="button button-primary pd-form-wide">جرّب إرسال الاستفسار</button>
+      <div class="pd-form-wide">
+        <a class="text-action" href="../../privacy-policy/index.html">سياسة الخصوصية</a>
+        <a class="text-action" id="pd-contact-link" href="../../contact/index.html#inquiry">تابع في صفحة التواصل</a>
+      </div>
+    </form>
+    <p id="pd-inquiry-status" role="status" tabindex="-1"></p>
+  </dialog>
+  <!-- footer -->
+  <!-- dialogs -->
+</body>
+</html>

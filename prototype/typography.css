@@ -1,0 +1,215 @@
+/* Shared public typography. WOFF2 subsets and licenses are hosted locally. */
+@font-face {
+  font-family: 'Alexandria';
+  font-style: normal;
+  font-weight: 500 700;
+  font-display: swap;
+  src: url(assets/fonts/typography-preview/alexandria-arabic-500-700.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF0-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+@font-face {
+  font-family: 'Alexandria';
+  font-style: normal;
+  font-weight: 500 700;
+  font-display: swap;
+  src: url(assets/fonts/typography-preview/alexandria-latin-500-700.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/typography-preview/tajawal-arabic-400.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF0-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/typography-preview/tajawal-latin-400.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/typography-preview/tajawal-arabic-500.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF0-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/typography-preview/tajawal-latin-500.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/fonts/typography-preview/tajawal-arabic-700.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF0-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/fonts/typography-preview/tajawal-latin-700.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  --font-display: "Alexandria", "Tajawal", Tahoma, Arial, sans-serif;
+  --font-body: "Tajawal", Tahoma, Arial, sans-serif;
+
+  --weight-body: 400;
+  --weight-ui: 500;
+  --weight-title: 500;
+  --weight-heading: 600;
+  /* Tajawal provides 500 and 700, so emphasis uses the real 700 face. */
+  --weight-emphasis: 700;
+
+  --type-body: 1rem;
+  --type-description: clamp(.9375rem, 1.12vw, 1rem);
+  --type-ui: .9375rem;
+  --type-small: .875rem;
+  --type-hero: clamp(1.85rem, 7.15vw, 2.5rem);
+  --type-page: clamp(1.68rem, 3vw, 2.5rem);
+  --type-section: clamp(1.45rem, 2.23vw, 2.1rem);
+  --type-subsection: clamp(1.25rem, 1.85vw, 1.55rem);
+  --type-card-title: clamp(1rem, 1.25vw, 1.125rem);
+
+  --leading-body: 1.62;
+  --leading-heading: 1.31;
+  --leading-ui: 1.45;
+}
+
+body { font-synthesis: none; }
+h1, h2, h3 { line-height: var(--leading-heading); text-wrap: balance; }
+h1 { font-size: var(--type-page); }
+h2 { font-size: var(--type-section); }
+h3 { font-size: var(--type-subsection); }
+
+:where(.home-v2, .catalog, .public-page) :is(.nav-links a, .drawer-links a) {
+  font-family: var(--font-body);
+  font-weight: var(--weight-ui);
+  font-size: var(--type-ui);
+}
+:where(.home-v2, .catalog, .public-page) :is(.header-contact, .menu-toggle, .button, .text-action) {
+  font-family: var(--font-body);
+  font-weight: var(--weight-emphasis);
+  font-size: var(--type-ui);
+  line-height: var(--leading-ui);
+}
+body :is(input, select, textarea, button) { font-family: var(--font-body); }
+.catalog main :is(input:not([type="range"]), select, textarea) {
+  font-family: var(--font-body);
+  font-size: max(16px, var(--type-body));
+  line-height: var(--leading-ui);
+}
+.catalog :is(.catalog-search label, .catalog-filters label, .catalog-options label, .catalog-form-field, .catalog-share-label, .showcase-sort, .showcase-child) {
+  font-size: var(--type-ui);
+  font-weight: var(--weight-ui);
+}
+.catalog :is(.catalog-field-error, .catalog-inquiry-success, .catalog-context span) {
+  font-size: var(--type-ui);
+  line-height: var(--leading-body);
+}
+.site-footer :is(h2, a, p, button) {
+  font-family: var(--font-body);
+  font-size: var(--type-small);
+  line-height: var(--leading-ui);
+}
+.site-footer h2 { font-weight: var(--weight-emphasis); }
+
+:where(.home-v2, .catalog) :is(.section-kicker, .catalog-demo, .home-demo, .featured-category, .catalog-card-body .meta, .detail-related-copy .meta, .quote-card figcaption, .home-features span, .showcase-demo, .catalog-breadcrumb) {
+  font-size: var(--type-small);
+  line-height: var(--leading-body);
+}
+:where(.home-v2, .catalog) :is(.featured-price, .catalog-price, .slide-count, .custom-steps bdi) {
+  font-family: var(--font-body);
+  font-weight: var(--weight-emphasis);
+  font-variant-numeric: tabular-nums;
+}
+:where(.home-v2, .catalog) :is(.featured-description, .showcase-description, .catalog-card-description, .custom-steps p, .faq details p) {
+  font-size: var(--type-description);
+  line-height: var(--leading-body);
+}
+.home-v2 .featured-description { font-weight: var(--weight-ui); }
+
+.home-v2 .hero h1 { font-size: var(--type-hero); margin-block: .25em; line-height: var(--leading-heading); }
+.home-v2 :is(.products-copy, .project-story, .custom-copy, .about-copy, .contact-layout) h2 {
+  font-size: var(--type-section);
+  line-height: var(--leading-heading);
+}
+.home-v2 :is(.faq, .testimonials) h2 { font-size: var(--type-subsection); }
+.home-v2 :is(.products-copy, .project-story, .custom-copy, .about-copy) h2 + p { margin-block-start: .45rem; }
+.home-v2 :is(#hero-description, .custom-copy h2 + p, .project-story h2 + p) {
+  font-size: var(--type-body);
+  line-height: var(--leading-body);
+}
+.home-v2 .project-caption strong { font-family: var(--font-display); font-size: var(--type-ui); font-weight: var(--weight-heading); }
+.home-v2 :is(.featured-card h3, .custom-steps h3) { font-size: var(--type-card-title); line-height: var(--leading-heading); }
+.home-v2 .featured-price { font-size: var(--type-body); }
+:is(.home-v2 .hero-navigation, .home-v2 .review-navigation, .site-footer .social-links) { flex-wrap: wrap; }
+.home-v2 :is(.faq, .testimonials) { min-inline-size: 0; }
+.home-v2 .hero h1 { overflow-wrap: anywhere; }
+.home-v2 .project-details button { inline-size: 100%; }
+
+.catalog .showcase-hero h1,
+.catalog .catalog-intro h1,
+.catalog .catalog-product-info h1 {
+  font-size: var(--type-page);
+  line-height: var(--leading-heading);
+}
+.catalog .showcase-hero h1 { font-size: clamp(1.9rem, 3.34vw, 3rem); }
+.catalog .catalog-intro h1 { font-size: clamp(1.85rem, 3.25vw, 2.8rem); }
+.catalog .catalog-product-info h1 { font-weight: var(--weight-title); overflow-wrap: anywhere; }
+.catalog :is(.catalog-results-heading, .detail-related-header h2) { font-size: var(--type-section); line-height: var(--leading-heading); }
+.catalog .catalog-detail .detail-tab-panel h2 { font-size: var(--type-subsection); line-height: var(--leading-heading); }
+.catalog :is(.showcase-sidebar h2, .showcase-dialog h2) { font-family: var(--font-body); font-weight: var(--weight-emphasis); }
+.catalog :is(.showcase-card h3, .catalog-card-body h3, .detail-related-copy h3) {
+  font-size: var(--type-card-title);
+  line-height: var(--leading-heading);
+  overflow-wrap: anywhere;
+}
+.catalog :is(.catalog-product-description, .catalog-specs div, .catalog-intro p:not(.section-kicker, .catalog-demo)) {
+  font-size: var(--type-description);
+  line-height: var(--leading-body);
+}
+.catalog .catalog-product-info .catalog-price { font-size: clamp(1.12rem, 1.55vw, 1.4rem); }
+.catalog .catalog-results-meta #catalog-count { font-size: var(--type-ui); }
+.showcase-benefits li > div { min-inline-size: 0; overflow-wrap: anywhere; }
+
+@media (min-width: 64rem) {
+  :root { --type-hero: clamp(1.7rem, 2.7vw, 2.7rem); }
+  .home-v2 .hero { min-block-size: clamp(21.25rem, 27.3vw, 32.5rem); block-size: auto; }
+  .home-v2 .hero-inner { min-block-size: inherit; block-size: auto; padding-block: .8rem calc(1.15rem + 1.7vw); }
+  .home-v2 .hero-copy { padding-block: 0; }
+  .home-v2 .hero h1 { margin-block: .16em; text-wrap: wrap; }
+  .home-v2 #hero-description { max-inline-size: min(100%, 24rem); }
+  .home-v2 .hero-actions { margin-block-start: .65rem; }
+  .home-v2 .hero-actions .button { font-size: .88rem; padding-inline: .65rem; white-space: normal; }
+  .home-v2 .hero-navigation { margin-block-start: .4rem; }
+  .catalog main :is(input:not([type="range"]), select, textarea) { font-size: var(--type-ui); }
+}
+@media (64rem <= width < 74rem) {
+  :where(.home-v2, .catalog, .public-page) .nav-links a, .home-v2 .hero-actions .button { font-size: var(--type-small); }
+}
+
+/* The navigation also switches when enlarged text outgrows the desktop row. */
+.site-header { container: site-header / inline-size; }
+@container site-header (inline-size < 47rem) {
+  :is(.home-v2, .catalog, .public-page) .header-inner { display: flex; }
+  :is(.home-v2, .catalog, .public-page) .header-inner :is(.desktop-nav, .header-contact) { display: none; }
+  :is(.home-v2, .catalog, .public-page) .header-inner .menu-toggle { display: inline-flex; }
+  .header-inner .brand-mark { inline-size: min(var(--brand-size), 29vw); }
+  .header-inner .menu-toggle { padding-inline: min(.65rem, 2vw); }
+}
+
